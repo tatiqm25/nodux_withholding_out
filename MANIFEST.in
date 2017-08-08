@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include nodux_withholding_out *.css
+recursive-include nodux_withholding_out *.csv
+recursive-include nodux_withholding_out *.html
+recursive-include nodux_withholding_out *.ico
+recursive-include nodux_withholding_out *.js
+recursive-include nodux_withholding_out *.json
+recursive-include nodux_withholding_out *.md
+recursive-include nodux_withholding_out *.png
+recursive-include nodux_withholding_out *.py
+recursive-include nodux_withholding_out *.svg
+recursive-include nodux_withholding_out *.txt
+recursive-exclude nodux_withholding_out *.pyc
